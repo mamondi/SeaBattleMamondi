@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{a5fa55a3-eca7-426a-bebe-0160dcb48ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{dea8c8a3-4128-4316-8256-0d3166249c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{590ac6f9-f7ad-493a-a0e6-b4d81b28b0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entity">
+      <UniqueIdentifier>{7ba801c2-9c80-48a0-9608-146bfaa75b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Reporsitory">
+      <UniqueIdentifier>{e0c83c8d-2358-40cf-9d30-933b1cc9db31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Main">
+      <UniqueIdentifier>{8863af2d-dbbf-4ac6-b90e-32ef53bd70cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Library">
+      <UniqueIdentifier>{10890098-7d5f-40db-bd0b-a735b5dd6641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\LocalDatasource">
+      <UniqueIdentifier>{46ab1417-41da-4480-9f25-a785ea507040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Gamemodes">
+      <UniqueIdentifier>{d9f99095-58a4-4351-8e93-a4f8d9d8fa03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Reporsitory\Presentation">
+      <UniqueIdentifier>{deb9e087-3239-4995-a842-ffcbee0cb3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Reporsitory\Presentation\Screens">
+      <UniqueIdentifier>{314e72d0-e53d-464c-b56b-023f65089dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Reporsitory\Presentation\Screens\VisualFunc">
+      <UniqueIdentifier>{e0900df4-8062-4177-8f59-84d65646a510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Gamelogic">
+      <UniqueIdentifier>{8749718d-9f2d-49f0-bae7-37b209d5dca2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Domain\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamemodes.cpp">
+      <Filter>Domain\Gamemodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="library.h">
+      <Filter>Core\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Domain\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamemodes.h">
+      <Filter>Domain\Gamemodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
